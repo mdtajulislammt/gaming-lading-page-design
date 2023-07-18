@@ -46,10 +46,12 @@
           margin-top: 280px;
      }
      .banner-images>img{
-          margin:0px 30px 0px 0px;
+         margin: 0 auto;
         width: 300px;
         height: 300px;
+         margin-top: 50px;
         margin-bottom: 15px;
+       
         
      }
 
@@ -102,7 +104,58 @@
                font-size: 10px;
                
           }
-    
+    /* -----------------------gamer-section------------------- */
+    .gamer-container{
+     flex-direction: column;
+     text-align: center;
+     align-items: center;
+     padding: 0px 130px;
+     margin-top: 68%;
+     background:var(--white-color);
+
+     
+}
+.gamer-container img{
+     width: 400px;
+     height: 300px;
+}
+
+
+.gamer-content{
+     width: 300px;
+     height: 300px;
+     margin-top: 20px;
+}
+.gamer-content h1{
+     font-size: 1.5rem;
+}
+.gamer-content p{
+     width: 210px;
+     margin: 0 auto;
+     font-size: 0.5rem;
+     line-height: 10px; 
+     margin-top: 10px ;
+}
+.gamer-btn{
+     padding: 10px 20px;
+     font-size: 0.6rem;
+     margin-top: 10px;
+
+
+}
+
+.gamer-content h3 small{
+     font-size: 0.6rem;
+
+     
+
+}
+.gamer-content h3{
+     width: 300px;
+     font-size: 1rem;
+     margin-top: 15px;
+}
+
 
 
 }
