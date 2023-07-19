@@ -449,7 +449,8 @@ nav{
           color: #ada8a8;
      }
      .footer-icon-list a{
-color: white;
+     color: white;
+     cursor: pointer;
      }
      .footer-cpyright{
           margin-top: 10px;
