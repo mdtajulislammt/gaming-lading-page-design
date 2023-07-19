@@ -448,6 +448,9 @@ nav{
           text-decoration: none;
           color: #ada8a8;
      }
+     .footer-icon-list a{
+color: white;
+     }
      .footer-cpyright{
           margin-top: 10px;
           font-size: 16px;
