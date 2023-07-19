@@ -254,7 +254,7 @@
      /* --------------------footer-section------ */
 
      .footer-content{
-          top: 50px;
+          top: 30px;
           margin: 0px 100px ;
 
      }   
@@ -295,16 +295,16 @@
      grid-template-columns: repeat(2,1fr);
      align-items: center;
      font-size: 10px;
-     margin-left:30px ;
+     margin-left: 5px;
 }
 
 .privacy-policy>ul li{
-     margin: 15px 0px;
+     margin: 0;
      text-align: left;
 }
 
 .footer-cpyright{
-     
+     width: 200px;
      font-size: 10px;
      margin: 20px auto;
  
