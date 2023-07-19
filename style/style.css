@@ -78,21 +78,20 @@ nav{
 
 .banner{
      display: flex;
-     justify-content: space-between;
+     justify-content:center;
      align-items: center;
      height: 70vh;
+     margin-right: 155px;
 
      
      
 }
+
 .banner-container>img{
      position: relative;
      top: 56px;
      width:700px;
-     height: 85vh;
-     
-
-     
+     height: 85vh;    
 }
 .banner-content{
      position: absolute;
@@ -153,9 +152,10 @@ nav{
 
 
 .banner-images>img{
-     margin:20px 170px 0px 0px ;
+     /* margin:20px 70px 0px 0px ; */
      margin-top: 121px;
-   width: 580px;
+     margin-right: 20px;
+   width: 100%;
    height: 84vh;
    
 }
@@ -168,13 +168,13 @@ nav{
      justify-content:center;
      align-items: center;
      text-align: end;
-     margin-top: -5px;
+     margin-top: 9px;
      gap: 10px;
      background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
 }
 .gamer-container img{
-     width: 680px;
+     width: 520px;
      height: 400px;
     
 
@@ -225,4 +225,257 @@ nav{
      font-size: 32px;
      font-weight: 700;
 
+     }
+
+
+  /* ----------------------------online-game-section-------------------    */
+  .online-game{
+     margin: 0px 170px;
+     
+  }
+  .online-game-tittle{
+      text-align: center;
+      margin-top: 30px;
+     font-size: 48px;
+     font-weight: 700;
+  }
+  .online-game-tittle span{
+     background: var(--linear-pink-color);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+  }
+  .online-game-description{
+     text-align: center;
+     color: #534C64;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 30px;
+     margin-top: 10px;
+  }
+  .online-card-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 45px;
+     gap: 20px;
+    
+     
+
+  }
+  .online-card{
+     width: 100%;
+     height: 350px;
+
+     
+     
+     
+   
+  }
+  .online-card img{
+     width: 100%;
+     height: 100%;
+     display: block;
+     border-radius: 20px ;
+
+     
+     
+  }
+
+  .online-card img:hover{
+     background:linear-gradient(180deg, #3b3a3b 0%, #1c1c1d 100%);
+     border: 5px solid var(--light-pink-color);
+
+  }
+  .online-card-insart{
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     position: absolute;
+     background-color: #1d1d1f2f;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     opacity: 0;
+     transition: 0.6s;
+  }
+  /* .online-card-insart:hover{
+     opacity: 1;
+  } */
+
+  .online-card p{
+     color: #534C64;
+     font-size: 1rem;
+     font-weight: 500;
+     line-height: 20px;
+     margin-top: 10px;
+  }
+  /* ---------------------play-game section------------------ */
+  .play-games{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0px 170px;
+     margin-top: 150px;
+     text-align: right;
+     gap: 170px;
+     
+  }
+
+  .play-games-image>img{
+     width: 450px;
+     height: 500px;
+  }
+  .play-games-image-2 img{
+     position: relative;
+     width:250px ;
+     height:270px;
+     top: -200px;
+     right: 70%;
+  }
+  .play-games-content{
+     margin-top: -250px;
+  }
+  .play-games-content h1{
+     font-size: 48px;
+     font-weight: 700;
+     line-height: 60px;
+     margin-bottom: 20px;
+
+  }
+  .play-games-content h1 span{
+     background: var(--linear-pink-color);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+  }
+  .play-games-content>p{
+     color: #534C64;
+     font-size: 1.2rem;
+     font-weight: 400;
+     line-height: 30px;
+  }
+
+
+  .play-games-2{
+     flex-direction: row-reverse;
+     text-align: left;
+     margin-top: -100px;
+     gap: 142px;
+  }
+  .play-games-image-3 img{
+     left: 70%;
+  }
+
+  /* -----------------------------all game-list---------------------- */
+  .all-game-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     /* margin: -100px 140px 50px 140px; */
+     height:250px ;
+     padding: 20px 140px;
+     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+  }
+  .singel-game{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 5px 15px;
+     box-sizing: border-box;
+     margin: 10px;
+     border-radius: 50px;
+     gap: 10px;
+     cursor: pointer;
+     border: 1px solid white;
+     
+  }
+  .singel-game:hover{
+     border: 1px solid var(--light-pink-color);
+     color: var(--light-pink-color);
+  }
+  .singel-game img{
+     width: 50px;
+     height: 50px;
+  }
+  .singel-game h3{
+     font-size: 14px;
+     font-weight: 600;
+
+     }
+
+
+     /* ----------------------------------footer section-------------------- */
+
+     .footer-container{
+          height: 500px;
+          text-align: center;
+          align-items: center;
+          background-color: #0B0223;
+          color: var(--white-color);
+          
+     }
+     .footer-content{
+          position: relative;
+          top: 100px;
+          justify-content: center;
+
+     }
+     
+     .footer-logo{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 1rem;
+          margin-bottom: 30px;
+     
+     }
+     .footer-logo>h1{
+           font-size: 40px;
+          font-weight: 700;
+     
+     }
+     .footer-logo span{
+         color:var(--light-pink-color) ;
+     }
+
+     .footer-support-section>ul{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+     }
+     .footer-support-section>ul li{
+          list-style: none;
+          margin:20px 30px;
+     }
+     .footer-support-section>ul a{
+          text-decoration: none;
+          color: var(--white-color);
+     }
+     .footer-icon-list i{
+          font-size: 25px;
+         margin: 20px 20px;
+     }
+
+     .privacy-policy>ul{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+     }
+     .privacy-policy>ul li{
+          list-style: none;
+          margin: 40px 20px;
+     }
+     .privacy-policy>ul a{
+          text-decoration: none;
+          color: #ada8a8;
+     }
+     .footer-cpyright{
+          margin-top: 10px;
+          font-size: 16px;
+          color: #9f9fa1;
      }
