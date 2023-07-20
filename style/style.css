@@ -169,7 +169,7 @@ nav{
      margin-top: 9px;
      gap: 10px;
      background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-
+    
 }
 .gamer-container img{
      width: 520px;
@@ -228,7 +228,7 @@ nav{
 
   /* ----------------------------online-game-section-------------------    */
   .online-game{
-     margin: 0px 170px;
+     margin: 0px 160px;
      
   }
   .online-game-tittle{
@@ -252,39 +252,63 @@ nav{
   }
   .online-card-container{
      display: flex;
-     justify-content: center;
+     justify-content:center;
      align-items: center;
-     margin-top: 45px;
-     gap: 20px;
-    
-     
+     margin-top: 50px;
+     gap: 30px;
+}
 
-  }
-  .online-card{
-     width: 100%;
-     height: 350px;  
-  }
+.card{
+     width: 260px;
+    height: 300px;
+    transform: translate(0%, 0%);
+}
+.card>img{
+width: 100%;
+height: 100%;
+}
 
-  .online-card img{
-     width: 100%;
-     height: 100%;
-     border-radius: 20px ;
-     opacity:1; 
-     transition: 0.2s;   
-  }
+.overlay{
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     opacity: 0;
+     transition: opacity 0.4s ease-in-out;
+     background-color: #000000;
+     cursor: pointer;
+     border-radius: 10px ;
 
-  .online-card img:hover{
-     opacity:0.5;
-     border: 5px solid var(--light-pink-color);
+}
+.content{
+     position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-family: verdana;
+   text-align: center;
+   
+}
+.content>h2{
+font-size:1rem;
+color: #FF42A5;
+margin-top: 15px;
+}
+.card:hover .overlay{
+     opacity: 0.8;
+     border: 5px solid #FF42A5;
+}
 
-  }
-  .online-card p{
+.card p{
      color: #534C64;
      font-size: 1rem;
      font-weight: 500;
      line-height: 20px;
      margin-top: 10px;
   }
+
   /* ---------------------play-game section------------------ */
   .play-games{
      display: flex;
@@ -314,7 +338,7 @@ nav{
   .play-games-content h1{
      font-size: 48px;
      font-weight: 700;
-     line-height: 60px;
+     line-height: 80px;
      margin-bottom: 20px;
 
   }
@@ -347,11 +371,10 @@ nav{
      justify-content: center;
      align-items: center;
      flex-wrap: wrap;
-     /* margin: -100px 140px 50px 140px; */
      height:250px ;
-     padding: 20px 140px;
+     padding: 20px 0px;
      background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-
+     margin-top: -100px;
   }
   .singel-game{
      display: flex;

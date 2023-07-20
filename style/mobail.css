@@ -169,16 +169,19 @@
 .online-card-container{
      flex-direction: column;
      align-items: center;
+     margin-top: 30px;
      gap: 45px;
 }
 .online-game-tittle{
     font-size: 20px;
+    margin-top: 0px;
 
  }
  .online-game-description{
      font-size: 9px;
+     font-weight: 900;
   }
-  .online-card p{
+  .card p{
      font-size: 10px;
      text-align: center;
   }
@@ -230,9 +233,9 @@
   }
 /* --------------------all game list------------- */
 .all-game-container{
-     padding: 50px 50px;
+     padding: 50px 20px;
      flex-wrap:wrap;
-     margin-top: -50px;
+     /* margin-top: 50px; */
      height: 130px ;
 
 }
@@ -244,17 +247,16 @@
   }
 
   .singel-game img{
-     width: 20px;
-     height: 20px;
+     width: 18px;
+     height: 18px;
   }
   .singel-game h3{
-     font-size: 8px;
+     font-size: 10px;
      }
 
      /* --------------------footer-section------ */
 
      .footer-content{
-          top: 30px;
           margin: 0px 100px ;
 
      }   
@@ -280,6 +282,7 @@
      display: grid;
      grid-template-columns: repeat(3,1fr);
      align-items: center;
+     text-align: center;
      margin: 20px auto;
      width: 150px;
      
@@ -291,11 +294,11 @@
 }
 
 .privacy-policy>ul{
-     display: grid;
-     grid-template-columns: repeat(2,1fr);
-     align-items: center;
+     flex-wrap: wrap;
+     gap: 20px;
      font-size: 10px;
-     margin-left: 5px;
+     margin-left: 10px;
+     
 }
 
 .privacy-policy>ul li{

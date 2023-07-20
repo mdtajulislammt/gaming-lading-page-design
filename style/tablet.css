@@ -1,14 +1,39 @@
 @media screen and (min-width:576px) and (max-width:768px) {
-    nav{
+   
+   /* ------------------nav section-------------- */
+     nav{
      
      justify-content: space-around;
      padding: 20px 0px;
      width: 100%;
     
     } 
+    .nav-logo {
+     gap: 10px;
+}
+.nav-logo img{
+     width: 40px;
+}
+.nav-logo>h1{
+      font-size: 30px;
+}
+.nav-content>ul>li{
+     margin-right: 20px;
+     font-size: 10px;
+}
+.nav-follow{
+     gap: 1rem;
+     padding: 12px; 
+   
+}
+.nav-follow img{
+     width: 20px;
+}
+
    
     /* --------------------banner-section------------------ */
     .banner{
+     margin: 0 50px;
      margin-right:12px;
      
 }
@@ -65,8 +90,8 @@
      }
 
 .banner-btn button{
-          padding: 20px 25px;
-          font-size: 20px;
+          padding: 15px 25px;
+          font-size: 10px;
           
      }
      /*----------------------gamer-section-------------------- */
@@ -76,36 +101,45 @@
           justify-content:center;
           align-items: center;
           text-align: center;
-          margin-top: 120px;
-         
+          height: 700px;
+          margin: 80px auto;     
      }
+     .gamer-content{
+
+          margin-right: 0px;
+     }
+     .gamer-content h3{
+          font-size: 20px;
+          font-weight: 700;
+          
+     
+          }
 
 /*----------------------online-game-section-------------------- */
 .online-game{
      margin: 0px 70px;
-     margin-top: -50px;
+     margin-top: -20px;
   }
 
 .online-card-container{
-     flex-direction: column;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
      align-items: center;
-     gap: 45px;
+     
+   
 }
-.online-game-tittle{
-    font-size: 20px;
+.online-game h1{
+    font-size: 40px;
 
  }
  .online-game-description{
-     font-size: 9px;
+     font-size: 15px;
   }
   .online-card p{
      font-size: 10px;
      text-align: center;
   }
-  .online-game{
-     margin: 0px 70px;
-     margin-top: -50px;
-  }
+ 
 
 .online-card-container{
      flex-direction: column;
@@ -117,13 +151,11 @@
     margin-bottom: 50px;
 
  }
- .online-game-description{
-     font-size: 9px;
-  }
-  .online-card p{
+
+  .card p{
      font-size: 10px;
      text-align: center;
-     margin-left: -30px;
+     
   }
   .online-card img{
      width: 50%;
@@ -148,7 +180,7 @@
 }
 .play-games-content h1{
      font-size: 3rem;
-     line-height: 40px;
+     line-height: 60px;
      margin-bottom: 40px;
 
   }
@@ -176,16 +208,16 @@
   }
  /* -----------------------------all game-list---------------------- */
  .all-game-container{
-     padding: 50px 50px;
+     padding: 50px 70px;
      flex-wrap:wrap;
      margin-top: -50px;
      height: 130px ;
 
 }
 .singel-game{
-     padding: 5px 5px;
+     padding: 10px 10px;
      margin: 0px;
-     gap: 5px;
+     gap: 10px;
      
   }
 
@@ -194,7 +226,7 @@
      height: 30px;
   }
   .singel-game h3{
-     font-size: 12px;
+     font-size: 16px;
      }
 
 
