@@ -47,7 +47,6 @@
      /* ------------------Banner-section--------------------- */
      .banner{
           flex-direction: column-reverse;
-          /* margin-top: 280px; */
           margin-right:0px;
      }
      .banner-images>img{
@@ -239,7 +238,6 @@
 .all-game-container{
      padding: 50px 20px;
      flex-wrap:wrap;
-     /* margin-top: 50px; */
      height: 130px ;
 
 }

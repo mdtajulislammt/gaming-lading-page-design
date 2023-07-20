@@ -56,21 +56,16 @@ nav{
      color: #3C354F;
      font-size: 1rem;
      font-weight: 500;
-     
-
 }
 
 .nav-content>ul>li>a{
      text-decoration: none;
-     cursor: pointer;  
-     
-     
+     cursor: pointer; 
+     color: #3C354F;      
 }
 .nav-follow a{
      text-decoration: none;
      color: #3C354F;
-
-
 }
 .nav-follow{
      display: flex;
