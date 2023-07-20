@@ -51,24 +51,32 @@ nav{
     
 }
 .nav-content>ul>li{
-     margin-right: 30px;
+     margin-right: 25px;
      list-style: none;
      color: #3C354F;
      font-size: 1rem;
      font-weight: 500;
+     
 
 }
+
 .nav-content>ul>li>a{
      text-decoration: none;
      cursor: pointer;  
      
      
 }
+.nav-follow a{
+     text-decoration: none;
+     color: #3C354F;
+
+
+}
 .nav-follow{
      display: flex;
      align-items: center;
      gap: 1.1rem;
-     padding: 1rem;
+     padding:1rem;
      border-radius: 8px;
      background: rgba(11, 2, 35, 0.10);
       
@@ -86,7 +94,7 @@ nav{
 
 .banner-container>img{
      position: relative;
-     top: 56px;
+     top: 51px;
      width:700px;
      height: 85vh;      
 }
